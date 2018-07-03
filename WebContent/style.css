@@ -1,0 +1,285 @@
+div.nav {
+	margin-bottom: 1cm;
+ 	background-size: cover;
+}
+
+.super-container {
+	display: block;
+  	margin-left: 70px;
+  	margin-right: auto;
+    width :1000px;
+}
+
+.post-container {
+    border: 1px solid #b36b00;
+    overflow: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 0px;
+    width: 400px;
+    float:left;
+ 	clear:left;
+ 	padding: 5px 5px 5px 5px;
+
+}
+
+.post-container:nth-of-type(2n) {
+    border: 1px solid #b36b00;
+    overflow: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-right: auto;
+    width: 400px;
+ 	clear:right;
+ 	display:inline-block;
+}
+
+.post-thumb {
+    float: left
+}
+.post-thumb img {
+    display: block
+}
+.post-content {
+    margin-left: 210px
+}
+
+div.table {
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+div.center {
+	position: absolute;
+  	margin: auto;
+  	top: 0;
+  	right: 0;
+  	bottom: 0;
+ 	 left: 0;
+}
+
+
+body {
+	 background-color:#FAEAD3;
+}
+
+.v-generated-body {
+    min-width: 1000px;
+    overflow: auto;
+}
+
+h1 {
+	color:brown;
+}
+
+/* #### bootstrap Form #### */
+.bootstrap-frm {
+    margin-left:auto;
+    margin-right:auto;
+
+    max-width: 500px;
+    background: #FFF;
+    padding: 20px 30px 20px 30px;
+    font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #888;
+    text-shadow: 1px 1px 1px #FFF;
+    border:1px solid #DDD;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+.bootstrap-frm h1 {
+    font: 25px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 0px 0px 10px 40px;
+    display: block;
+    border-bottom: 1px solid #DADADA;
+    margin: -10px -30px 30px -30px;
+    color: #888;
+}
+.bootstrap-frm h1>span {
+    display: block;
+    font-size: 11px;
+}
+.bootstrap-frm label {
+    display: block;
+    margin: 0px 0px 5px;
+}
+.bootstrap-frm label>span {
+    float: left;
+    width: 20%;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+    color: #333;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+.bootstrap-frm input[type="text"], .bootstrap-frm input[type="password"], .bootstrap-frm input[type="email"], .bootstrap-frm textarea, .bootstrap-frm select{
+    border: 1px solid #CCC;
+    color: #888;
+    height: 20px;
+    line-height:15px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 5px 0px 5px 5px;
+    width: 70%;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+.bootstrap-frm select {
+    background: #FFF url('down-arrow.png') no-repeat right;
+    background: #FFF url('down-arrow.png') no-repeat right;
+    appearance:none;
+    -webkit-appearance:none;
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    width: 70%;
+    height: 35px;
+    line-height:15px;
+}
+.bootstrap-frm textarea{
+    height:100px;
+    padding: 5px 0px 0px 5px;
+    width: 70%;
+}
+.bootstrap-frm .button {
+    background: #FFF;
+    border: 1px solid #CCC;
+    padding: 10px 25px 10px 25px;
+    color: #333;
+    border-radius: 4px;
+}
+.bootstrap-frm input[type="submit"] {
+    background: #FFF;
+    border: 1px solid #CCC;
+    padding: 10px 25px 10px 25px;
+    color: #333;
+    border-radius: 4px;
+}
+.bootstrap-frm .button:hover {
+    color: #333;
+    background-color: #EBEBEB;
+    border-color: #ADADAD;
+}
+
+
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #3C280D;
+
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #5B3D14;
+}
+
+.active {
+	background-color: #4CAF50;
+}
+
+li.dropdown {
+	display: inline-block;
+	float: right;
+	padding-right: 0%;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #CBAF89;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: #EFBE75
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.generic-frm input[type="submit"] {
+  	-moz-box-shadow: 0px 1px 0px 0px #fff6af;
+	-webkit-box-shadow: 0px 1px 0px 0px #fff6af;
+	box-shadow: 0px 1px 0px 0px #fff6af;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23));
+	background:-moz-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-webkit-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-o-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-ms-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23',GradientType=0);
+	background-color:#ffec64;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #ffaa22;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+}
+
+.generic-frm input[type="submit"]:hover {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffab23), color-stop(1, #ffec64));
+	background:-moz-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-webkit-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-o-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-ms-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64',GradientType=0);
+	background-color:#ffab23;
+}
+
+.remove-frm input[type="submit"] {
+    background: #ffbb33;
+    border: 1px solid #CCC;
+    color: #333;
+    border-radius: 4px;
+}
+
+.remove-frm input[type="submit"]:hover {
+	color: #333;
+    background-color: #ffd480;
+    border-color: #ADADAD;
+}

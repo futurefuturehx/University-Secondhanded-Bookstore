@@ -1,0 +1,28 @@
+<component name="libraryTable">
+  <library name="antlr">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/antlr.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/commons-beanutils.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/commons-collections-2.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/commons-dbcp.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/commons-digester.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/commons-email-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/commons-fileupload.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/commons-io-2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/commons-logging.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/commons-pool.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/commons-validator.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/filter.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/jakarta-oro.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/javax.mail.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/junit.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/mysql-connector-java-5.1.10-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/struts.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/xmlbeans-2.6.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/filter.jar!/" />
+    </SOURCES>
+  </library>
+</component>
